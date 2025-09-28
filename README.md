@@ -22,7 +22,9 @@ Writers and analysts need a local, privacy-focused tool to improve writing style
 ## Usage
 
 1. Start Ollama:  
+
 2. Run your script:  
+
 3. View processed content in your terminal output
 
 ## License
@@ -32,3 +34,4 @@ You may adapt and extend this project for personal or professional use. Please c
 ## Contact
 
 For questions or support, open an issue on this repository.
+
