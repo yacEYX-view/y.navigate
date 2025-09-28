@@ -1,0 +1,8 @@
+from yield_navigator import process_with_yield_navigator
+
+def test_basic_processing():
+    input_text = "Hello world"
+    result = process_with_yield_navigator(input_text)
+    assert result is not None
+    assert isinstance(result, str)
+    assert len(result) > 0
