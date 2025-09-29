@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Y.Nav - Communications Navigator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Y.Nav</h1>
+            <p>Communications Navigator for Technical Projects</p>
+        </header>
+        
+        <main>
+            <div class="input-section">
+                <textarea id="textInput" placeholder="Paste technical communication to analyze..."></textarea>
+                <select id="contextSelect">
+                    <option value="technical project communication">Project Communication</option>
+                    <option value="status update">Status Update</option>
+                    <option value="requirements document">Requirements Document</option>
+                    <option value="meeting notes">Meeting Notes</option>
+                    <option value="email thread">Email Thread</option>
+                </select>
+                <button id="analyzeBtn">Analyze Communication</button>
+                <button id="chatBtn">Chat with Y.Nav</button>
+            </div>
+            
+            <div class="output-section">
+                <div id="loading" class="hidden">Analyzing...</div>
+                <div id="result" class="result hidden"></div>
+                <div id="error" class="error hidden"></div>
+            </div>
+        </main>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
